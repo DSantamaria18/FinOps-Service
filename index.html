@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GCP Waste Audit</title>
+    <meta
+      name="description"
+      content="Async GCP cost audit to uncover waste across logging, compute, non-production usage, and storage."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Trusted by logic, not buzzwords</p>
+            <h1>Stop paying for avoidable GCP waste</h1>
+            <p class="lead">
+              Async audit to uncover cost leaks across logging, compute, non-prod and storage.
+            </p>
+            <p>
+              You send the data. I return a prioritized findings report, estimated savings, and
+              quick wins you can act on in days.
+            </p>
+            <p>No workshops. No long consulting project. No ongoing support.</p>
+            <div class="actions">
+              <a class="button button-primary" href="#fit-check">Request fit check</a>
+            </div>
+          </div>
+          <aside class="card hero-card">
+            <h2>Fixed-scope technical audit</h2>
+            <p>
+              This is a fixed-scope technical audit for teams running on Google Cloud Platform
+              that want fast clarity on where money is being wasted.
+            </p>
+            <h3>Designed for companies that:</h3>
+            <ul class="check-list">
+              <li>already run workloads on GCP</li>
+              <li>suspect there is waste but lack time for a proper review</li>
+              <li>want actionable findings, not a vague FinOps strategy deck</li>
+              <li>prefer an async process over meetings and long discovery phases</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section muted-section">
+        <div class="container two-column">
+          <div class="card">
+            <h2>What you get</h2>
+            <p>You receive a concise audit report with:</p>
+            <ul>
+              <li>Prioritized cost leak findings</li>
+              <li>Estimated savings potential by area</li>
+              <li>Quick wins for the next 7–14 days</li>
+              <li>Notes on caveats and implementation risk</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2>Focus areas</h2>
+            <p>The audit focuses on these areas:</p>
+            <ul>
+              <li>Logging</li>
+              <li>Compute / VMs</li>
+              <li>Non-production usage</li>
+              <li>Storage</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-section">
+          <div>
+            <h2>What this is not</h2>
+            <p>This is not:</p>
+            <ul>
+              <li>a full FinOps transformation project</li>
+              <li>implementation work</li>
+              <li>Kubernetes / GKE optimization</li>
+              <li>ongoing support or advisory</li>
+              <li>a custom workshop</li>
+              <li>a re-audit after your team makes changes</li>
+            </ul>
+          </div>
+          <div class="callout">
+            <p class="eyebrow">The goal is simple</p>
+            <p>
+              identify obvious waste, estimate likely savings, and show where to act first.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted-section" id="fit-check">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">How it works</p>
+            <h2>A fast async process with clear outputs</h2>
+          </div>
+          <div class="steps-grid">
+            <article class="card step-card">
+              <span class="step-number">1</span>
+              <h3>Fit check</h3>
+              <p>
+                You complete a short form so I can confirm your environment matches the audit
+                scope.
+              </p>
+            </article>
+            <article class="card step-card">
+              <span class="step-number">2</span>
+              <h3>Technical intake</h3>
+              <p>
+                If the fit is good, you send the required exports, configs and context.
+              </p>
+            </article>
+            <article class="card step-card">
+              <span class="step-number">3</span>
+              <h3>Async review</h3>
+              <p>
+                I review the data across the agreed scope and identify likely cost leaks.
+              </p>
+            </article>
+            <article class="card step-card">
+              <span class="step-number">4</span>
+              <h3>Findings report</h3>
+              <p>You receive a clear report with:</p>
+              <ul>
+                <li>prioritized findings</li>
+                <li>savings estimate</li>
+                <li>quick wins</li>
+                <li>caveats and exclusions</li>
+              </ul>
+            </article>
+          </div>
+          <div class="centered-action">
+            <a class="button button-primary" href="#contact">Request fit check</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Sample output</p>
+            <h2>Examples of the findings you can expect</h2>
+          </div>
+          <div class="four-grid">
+            <article class="card">
+              <h3>Logging</h3>
+              <ul>
+                <li>excessive retention for low-value logs</li>
+                <li>high-ingest noisy services</li>
+                <li>logging patterns with poor cost-to-value ratio</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Compute / VMs</h3>
+              <ul>
+                <li>oversized instances</li>
+                <li>underutilized machines</li>
+                <li>forgotten workloads still consuming budget</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Non-production</h3>
+              <ul>
+                <li>dev/stage environments running outside useful hours</li>
+                <li>poor shutdown discipline</li>
+                <li>avoidable always-on spend</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Storage</h3>
+              <ul>
+                <li>orphaned disks</li>
+                <li>stale snapshots</li>
+                <li>storage classes or retention choices that no longer make sense</li>
+              </ul>
+            </article>
+          </div>
+          <div class="ranking-box card">
+            <h3>Each finding is ranked by:</h3>
+            <ul class="inline-list">
+              <li>likely impact</li>
+              <li>implementation effort</li>
+              <li>risk level</li>
+              <li>short-term actionability</li>
+            </ul>
+            <a class="button button-secondary" href="#contact">See if your environment fits</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted-section">
+        <div class="container two-column">
+          <div class="card">
+            <h2>Who this is for</h2>
+            <p>This audit is a good fit if you are:</p>
+            <ul>
+              <li>a startup or tech company running on GCP</li>
+              <li>an engineering or platform leader trying to reduce cloud waste</li>
+              <li>dealing with rising spend and limited internal bandwidth</li>
+              <li>looking for a fast, technical, async review</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2>Not a good fit if</h2>
+            <ul>
+              <li>you are not on GCP</li>
+              <li>you need implementation included</li>
+              <li>you want ongoing support</li>
+              <li>your main focus is GKE / Kubernetes optimization</li>
+              <li>you cannot provide the required data exports or context</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-section">
+          <div>
+            <p class="eyebrow">Why this approach</p>
+            <h2>Built to avoid shallow advice and endless consulting</h2>
+            <p>Most cloud cost reviews fail for one of two reasons:</p>
+            <ul>
+              <li>they are too shallow and produce generic advice</li>
+              <li>or they become open-ended consulting projects</li>
+            </ul>
+            <p>
+              This audit is built to avoid both. You get a bounded review, focused on high-signal
+              areas, with outputs designed to be useful immediately.
+            </p>
+          </div>
+          <div class="card faq-card">
+            <h2>FAQ</h2>
+            <div class="faq-item">
+              <h3>Do you need direct access to our environment?</h3>
+              <p>
+                Not necessarily. The preferred path is async review based on exports, configs and
+                supporting context you provide.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Is this only for GCP?</h3>
+              <p>Yes. The first version of this audit is deliberately limited to GCP.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Do you guarantee savings?</h3>
+              <p>
+                No. I estimate savings potential based on the reviewed data and common remediation
+                patterns. Real savings depend on implementation.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Do you implement the changes?</h3>
+              <p>No. This audit only covers findings, estimates and quick wins.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Do you cover GKE?</h3>
+              <p>
+                Not in this version. This audit is intentionally limited to logging, compute / VMs,
+                non-prod and storage.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>How long does it take?</h3>
+              <p>
+                Delivery depends on scope size and data quality, but the process is designed to
+                stay fast and bounded.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta" id="contact">
+        <div class="container final-cta-box">
+          <p class="eyebrow">Final CTA</p>
+          <h2>Find the obvious GCP cost leaks before they keep eating your budget.</h2>
+          <p>Async. Technical. Focused.</p>
+          <p>No calls required to get started.</p>
+          <a class="button button-primary" href="mailto:hello@example.com">Request fit check</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
